@@ -8,4 +8,11 @@ section {
   margin: 15px;
 }
 
+.main-nav {
+  height: 75px;
+  width: 100vw;
+}
 
+.main-nav ul {
+  list-style: none;
+}
