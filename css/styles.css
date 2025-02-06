@@ -17,6 +17,10 @@ body {
   grid-template-rows: auto 1fr auto;
 }
 
+h1, h2 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
 header {
   min-height: 50px;
   background-color: blueviolet;
