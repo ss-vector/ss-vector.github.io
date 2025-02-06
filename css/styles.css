@@ -8,6 +8,12 @@ section {
   margin: 15px;
 }
 
+fieldset {
+  border: 1px solid #39c;
+  max-width: 500px;
+  padding: 16px;
+}
+
 .main-nav {
   height: 75px;
   width: 100vw;
