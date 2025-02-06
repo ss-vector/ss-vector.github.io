@@ -1,7 +1,25 @@
+:root {
+  --color-shadow-primary:     #222832;
+  --color-shadow-base:        #333e48;
+  --color-dark:               #111;
+
+}
+
 * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+}
+
+body {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+header {
+  min-height: 50px;
+  background-color: blueviolet;
 }
 
 section {
@@ -12,6 +30,18 @@ fieldset {
   border: 1px solid #39c;
   max-width: 500px;
   padding: 16px;
+}
+
+footer {
+  width: 100vw;
+  background-color: var(--color-dark);
+  position: relative;
+  min-height: 50px;
+  color: #999999;
+}
+
+.main-footer {
+  color: lightcyan;
 }
 
 .main-nav {
