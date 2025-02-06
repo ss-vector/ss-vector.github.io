@@ -3,3 +3,6 @@
 :root {
     --yellow-bg: #{$public-yellow};
 }
+
+// Import Bootstrap
+@import '../../bootstrap/bootstrap-grid.scss';
