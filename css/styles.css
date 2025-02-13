@@ -23,7 +23,7 @@ h1, h2 {
 
 header {
   min-height: 50px;
-  background-color: blueviolet;
+  background-color: var(--purple-dark);
 }
 
 section {
