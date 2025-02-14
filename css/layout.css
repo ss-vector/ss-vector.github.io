@@ -1,6 +1,10 @@
 :root {
-  --yellow-bg: #fed700;
+  --purple-light: #ebd4ef;
+  --purple-light-100: rgba(156, 39, 176, 0.2);
   --purple-dark: #995db5;
+  --orange-dark: #f7941f;
+  --yellow-bg: #fed700;
+  --green-dark: #0d733c;
 }
 
 /*!

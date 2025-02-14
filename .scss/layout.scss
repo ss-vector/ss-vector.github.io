@@ -1,8 +1,12 @@
 @import '../../copycats-theme/colors.scss';
  
 :root {
-    --yellow-bg: #{$public-yellow};
-    --purple-dark: #{$dark-purple};
+    --purple-light: #{$light-purple};
+    --purple-light-100: #{$light-purple-100};
+    --purple-dark:  #{$dark-purple};
+    --orange-dark:  #{$dark-orange};
+    --yellow-bg:    #{$public-yellow};
+    --green-dark:   #{$dark-green};
 }
 
 // Import Bootstrap

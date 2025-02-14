@@ -2,7 +2,7 @@
   --color-shadow-primary:     #222832;
   --color-shadow-base:        #333e48;
   --color-dark:               #111;
-
+  --blue-light:               #39c;
 }
 
 * {
@@ -33,10 +33,19 @@ section {
 section.content-featured {
   background-color: var(--yellow-bg);
   min-height: 100px;
+  border-radius: 2rem;
+}
+
+.green {
+  background-color: var(--green-dark);
+}
+
+.green-content {
+  color: antiquewhite;
 }
 
 fieldset {
-  border: 1px solid #39c;
+  border: 1px solid var(--blue-light);
   max-width: 500px;
   padding: 16px;
 }
