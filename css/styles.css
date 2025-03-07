@@ -11,6 +11,8 @@
   padding: 0px;
 }
 
+@layer base, green;
+
 body {
   display: grid;
   min-height: 100vh;
@@ -38,8 +40,17 @@ section.content-featured {
   margin: 15px;
 }
 
-.green {
-  background-color: var(--green-dark);
+@layer special {
+  .green {
+    background-color: limegreen;
+    color: var(--color-dark);
+  }
+}
+
+@layer base {
+  .green {
+    background-color: var(--green-dark);
+  }
 }
 
 .green-content {
