@@ -1,4 +1,5 @@
 @import 'icomoon.css';
+@layer base, special;
 
 :root {
   --color-shadow-primary:     #222832;
@@ -12,8 +13,6 @@
   margin: 0px;
   padding: 0px;
 }
-
-@layer base, green;
 
 body {
   display: grid;
@@ -42,21 +41,28 @@ section.content-featured {
   margin: 15px;
 }
 
-@layer special {
-  .green {
-    background-color: limegreen;
-    color: var(--color-dark);
-  }
-}
-
 @layer base {
   .green {
     background-color: var(--green-dark);
   }
+
+  .green-content {
+    color: antiquewhite;
+  }
 }
 
-.green-content {
-  color: antiquewhite;
+@layer special {
+  .green {
+    background-color: limegreen;
+  }
+
+  .green-content {
+    color: var(--color-dark);
+  }
+}
+
+.green-content .excerpt ul {
+  margin-top: 1rem;
 }
 
 fieldset {
@@ -105,4 +111,24 @@ footer {
 
 .main-nav ul,.footer-nav ul {
   list-style: none;
+}
+
+/* Font Icons */
+
+.fs1 {
+  font-size: 32px;
+}
+
+.fs2 {
+  font-size: 64px;
+}
+
+.glyph {
+  font-size: 16px;
+  width: 10em;
+  padding-bottom: 6em;
+  margin-right: 4em;
+  padding-top: 4em;
+  float: left;
+  overflow: hidden;
 }
