@@ -16,7 +16,7 @@
 
 body {
   display: grid;
-  min-height: 100vh;
+  height: 100%;
   grid-template-rows: auto 1fr auto;
 }
 
@@ -61,7 +61,7 @@ section.content-featured {
   }
 }
 
-.green-content .excerpt ul {
+.green-content .featured-excerpt ul {
   margin-top: 1rem;
 }
 
@@ -77,11 +77,15 @@ legend {
 }
 
 footer {
-  width: 100vw;
+  max-width: 100%;
   background-color: var(--color-dark);
   position: relative;
   min-height: 50px;
   color: #999999;
+}
+
+.main-content {
+  max-width: 100%;
 }
 
 .main-header {
@@ -94,7 +98,7 @@ footer {
 
 .main-nav {
   height: 75px;
-  width: 100vw;
+  width: 100%;
 }
 
 .main-nav ul {
@@ -137,3 +141,7 @@ footer {
   float: left;
   overflow: hidden;
 }
+
+/* @media only screen and (min-width: 640px) {
+
+} */
