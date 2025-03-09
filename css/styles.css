@@ -134,6 +134,10 @@ footer {
   font-size: 32px;
 }
 
+.gap-3 {
+  gap: 1rem;
+}
+
 .fs2 {
   font-size: 64px;
 }
