@@ -1,4 +1,5 @@
 @import 'icomoon.css';
+@import 'vtypicons.css';
 @layer base, special;
 
 :root {
@@ -120,6 +121,11 @@ footer {
 
 .main-nav ul,.footer-nav ul {
   list-style: none;
+}
+
+.icon-link {
+  text-decoration: none;
+  color: white;
 }
 
 /* Font Icons */
