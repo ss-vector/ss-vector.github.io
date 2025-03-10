@@ -132,6 +132,10 @@ footer {
   border-top: 1px solid #999999;
 }
 
+.form {
+  max-width: 400px;
+}
+
 /* Font Icons */
 
 .fs1 {

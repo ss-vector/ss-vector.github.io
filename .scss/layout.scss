@@ -13,30 +13,33 @@
 /* Variables */
 
 $custom-colors: (
-    "primary": $primary,
-    "special": $light-purple
- ) !default;
+    "special": $light-purple,
+    "mayties": $orange
+ );
 
 /* Custom SCSS */
 
 // Prefix for :root CSS variables
 
-$prefix:                      ss- !default;
-
+$prefix:                      ss-;
 // Fonts
 
-$size: 0.8rem;
-$sacle: 1.2;
+@import '../../bootstrap/functions';
+@import '../../bootstrap/variables';
 
+$theme-colors: map-merge($custom-colors, $theme-colors);
 
-.btn, button {
-    display: inline-block;
-    font-size: .875rem;
-    line-height: 1.5;
-    font-weight: 400;
-    padding: 0.375rem .75rem;
-    text-shadow: none; }
+@import '../../bootstrap/mixins';
 
+// .btn, button {
+//     display: inline-block;
+//     font-size: .875rem;
+//     line-height: 1.5;
+//     font-weight: 400;
+//     padding: 0.375rem .75rem;
+//     text-shadow: none; }
+
+@import '../../bootstrap/buttons';
 
 
 // Import Bootstrap
