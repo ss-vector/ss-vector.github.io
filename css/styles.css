@@ -68,7 +68,7 @@ section.content-featured {
 
 fieldset {
   border: 1px solid var(--green-light);
-  background-color: var(--green-light);
+  background-color: transparent;
   max-width: 500px;
   padding: 16px;
 }
@@ -126,6 +126,10 @@ footer {
 .icon-link {
   text-decoration: none;
   color: white;
+}
+
+.socials {
+  border-top: 1px solid #999999;
 }
 
 /* Font Icons */

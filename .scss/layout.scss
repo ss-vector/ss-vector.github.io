@@ -10,5 +10,35 @@
     --green-light:      #{$highlight-green};
 }
 
+/* Variables */
+
+$custom-colors: (
+    "primary": $primary,
+    "special": $light-purple
+ ) !default;
+
+/* Custom SCSS */
+
+// Prefix for :root CSS variables
+
+$prefix:                      ss- !default;
+
+// Fonts
+
+$size: 0.8rem;
+$sacle: 1.2;
+
+
+.btn, button {
+    display: inline-block;
+    font-size: .875rem;
+    line-height: 1.5;
+    font-weight: 400;
+    padding: 0.375rem .75rem;
+    text-shadow: none; }
+
+
+
 // Import Bootstrap
 @import '../../bootstrap/bootstrap-grid.scss';
+    
